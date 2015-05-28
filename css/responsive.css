@@ -1,0 +1,44 @@
+/*===============
+ Media!
+ =================*/
+
+@media screen and (max-width: 860px) {
+    html, :root {
+        font-size: 101.25%
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .article_header, .page_content {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .colophon {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        width: auto;
+    }
+
+    .buffer {
+        margin-top: 5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1, .alpha {
+        font-size: 2em;
+    }
+    html, :root, .page_content {
+        font-size: 98%;
+    }
+    .site_title {
+        font-size: 201.25%;
+    }
+}
+
+

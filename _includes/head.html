@@ -1,0 +1,41 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="{{ "{{site.baseurl}}/css/index.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "{{site.baseurl}}/css/responsive.css" | prepend: site.baseurl }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+	<!-- Scripts -->
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="{{site.baseurl}}/js/app.js"></script>
+
+	<!-- Apple Touch Icon & Favicon-->
+	<link href="{{site.baseurl}}/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="{{site.baseurl}}/img/Portrait_Circle.png" rel="apple-touch-icon">
+
+	<!-- Type -->
+	<script src="//use.typekit.net/rxw3wys.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+
+	<!-- Analytics -->
+	<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-32299928-1']);
+		  _gaq.push(['_setDomainName', 'laster.co']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+	</script>
+</head>
