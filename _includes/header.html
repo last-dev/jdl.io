@@ -5,11 +5,11 @@
     <p class="site_sub_title">Opinions on Tech, Automotive, Music, and Life</p>
 
     <nav class="site_nav">
-        <a href="{{site.baseurl}}/">ABOUT</a>
-        <a href="{{site.baseurl}}/blog.html">BLOG</a> 
+        <a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}active{% endif %}">ABOUT</a>
+        <a href="{{site.baseurl}}/blog.html" class="{% if page.url == '/blog.html' %}active{% endif %}">BLOG</a> 
+        <a href="{{site.baseurl}}/quotes.html" class="{% if page.url == '/quotes.html' %}active{% endif %}">QUOTES</a>
         <!-- <a href="{{site.baseurl}}/projects.html">PROJECTS</a> -->
         <!-- <a href="{{site.baseurl}}/gear.html">GEAR</a> -->
-        <a href="{{site.baseurl}}/quotes.html">QUOTES</a>
     </nav>
 
 </header>
