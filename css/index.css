@@ -162,8 +162,12 @@ nav a:hover {
 	padding: 15px 25px 5px 25px;
 }
 
-.title:hover {
+.title a:hover {
 	color: #3d464d;
+}
+
+.title a {
+	text-decoration: none;
 }
 
 #reduce {
