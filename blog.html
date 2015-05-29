@@ -4,8 +4,7 @@ layout: default
 
 <ul>
 	{% for post in site.posts %}
-	<li>
-		<a href="{{site.baseurl}}{{post.permalink}}">{{post.title}}</a>
-	</li>
+		<div class="archiveTitle" id="reduce"><a href="{{site.baseurl}}{{post.permalink}}">{{post.title}}</a></div>
+		<div class="archiveDate">{{ post.date | date: "%b %-d, %Y" }}</div> 
 	{% endfor %}
 </ul>
