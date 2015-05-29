@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Random Thoughts: Future Home"
+title: "Future Home"
 date: 2015-03-22
 permalink: /future-home
 ---

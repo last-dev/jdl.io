@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Random Thoughts: Creative Learning"
+title: "Creative Learning"
 date: 2015-01-09
 permalink: /creative-learning
 ---
