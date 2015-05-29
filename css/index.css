@@ -50,6 +50,11 @@ html, :root {
 	background-color: #fff;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
 	padding: 1.55556em;
 }
