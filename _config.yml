@@ -1,7 +1,6 @@
 # Site settings
 title: Jonathan Laster
-description: > # this means to ignore newlines until "baseurl:"
-  Software & Automotive technologist. Addicted to the internet.
+description: > # Software & Automotive technologist. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://laster.co" # the base hostname & protocol for your site
 permalink: pretty
