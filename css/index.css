@@ -52,14 +52,6 @@ html, :root {
 
 body {
 	padding: 1.55556em;
-	text-align: center;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative
 }
 
 img {
@@ -86,6 +78,7 @@ img {
 .top {
 	display: block;
 	margin-bottom: 3.11111em;
+	text-align: center;
 }
 
 #logo {
@@ -147,26 +140,28 @@ nav a:hover {
 	display: block;
 	margin: 0 auto 4.66667em auto;
 	width: 66.66667%;
+	text-align: center;
 }
 
 #portrait {
 	max-width: 500px;
 }
 
-.title {
+.blogTitle {
 	font-weight: bolder;
 	font-family: "leitura-news", Georgia, serif;
 	font-size: 24px;
 	display: block;
 	margin: 0 auto;
 	padding: 15px 25px 5px 25px;
+	text-align: center;
 }
 
-.title a:hover {
+.blogTitle a:hover {
 	color: #3d464d;
 }
 
-.title a {
+.blogTitle a {
 	text-decoration: none;
 }
 
@@ -175,12 +170,38 @@ nav a:hover {
 	padding-bottom: 0;
 }
 
-.date {
+.blogDate {
 	font-weight: bolder;
 	font-family: "leitura-news", Georgia, serif;
-	color: #5D5D74;
-	font-size: 11px;
+	color: rgb(170, 170, 170);
+	font-size: 13px;
 	margin-bottom: 15px;
+	text-align: center;
+}
+
+.archiveTitle {
+	font-weight: bolder;
+	font-family: "leitura-news", Georgia, serif;
+	font-size: 20px;
+	display: block;
+	margin: 0 auto;
+	padding: 15px 25px 5px 25px;
+}
+
+.archiveTitle a:hover {
+	color: #3d464d;
+}
+
+.archiveTitle a {
+	text-decoration: none;
+}
+
+.archiveDate {
+	font-weight: bolder;
+	font-family: "leitura-news", Georgia, serif;
+	color: rgb(170, 170, 170);
+	font-size: 13px;
+	padding-left: 45px;
 }
 
 blockquote {
