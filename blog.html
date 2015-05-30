@@ -5,7 +5,12 @@ title: "Blog"
 
 <ul>
 	{% for post in site.posts %}
-		<div class="archiveTitle" id="reduce"><a href="{{site.baseurl}}{{post.permalink}}">{{post.title}}</a></div>
-		<div class="archiveDate">{{ post.date | date: "%b %-d, %Y" }}</div> 
+		<div class="archiveTitle" id="reduce">
+			<a href="{{site.baseurl}}{{post.permalink}}">
+				{{post.title}}
+				<br>
+				<div class="archiveDate">{{ post.date | date: "%b %-d, %Y" }}</div> 
+			</a>
+		</div>
 	{% endfor %}
 </ul>
