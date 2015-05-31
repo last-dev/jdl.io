@@ -5,7 +5,7 @@ date: 2015-05-31
 permalink: /the-patriot-act
 ---
 
-The [Patriot Act](http://en.wikipedia.org/wiki/Patriot_Act) is set to expire at 12:01 tomorrow morning unless the Senate votes to extend it. This highly debated topic seems to be the center of my universe at work, as it is debated by many of my coworkers.  
+[The Patriot Act](http://en.wikipedia.org/wiki/Patriot_Act) is set to expire at 12:01 tomorrow morning unless the Senate votes to extend it. This highly debated topic seems to be the center of my universe at work, as it is debated by many of my coworkers.  
 
 The majority consensus among my friends and coworkers is that The Patriot Act should be **completely** expired. Their justification is that the act is a complete invasion of privacy. They argue that the government cannot—or have not—shown examples of The Patriot Act being utilized to prevent a terrorist attack. "If the policy isn’t effective, why do we need it?" they ask.
 
