@@ -1,52 +1,406 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Front matter comment to ensure Jekyll properly reads file.
 ---
-@charset "utf-8";
-
-
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-font-stack: "freight-text-pro", Georgia, serif;
+$title-font-stack: "leitura-news", Georgia, serif;
+$content-font-size:   22px;
+$content-font-color: #3d464d;
+$theme-color:      #57ad68;
 
-$spacing-unit:     30px;
+/**********************************
+		Links & Type
+**********************************/
+a {
+	color: #000;
+	text-decoration: underline;
+}
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+header, main, footer, p, blockquote, ul, ol, h1, h2 {
+    margin-bottom: 30px;
+}
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+h1 {
+    font: {
+    	weight: 800;
+    	size: 3em;
     }
+    	
+    line-height: 1.25;
+    color: $content-font-color;
+}
+
+h2 {
+	padding-top: 1.55556rem;
+}
+
+h3 {
+	text-align: justify;
+}
+
+h4 {
+	margin-bottom: 0.77778rem;
+	font: {
+		family: "franklin-gothic-urw", Geneva, Verdana, san-serif;
+		weight: 600;
+	}
+}
+
+
+/**********************************
+		Core Roots & Misc.
+**********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: $base-font-stack;
+	padding: 1.55556em;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	background-color: #fff;
+}
+
+img {
+	max-width: 800px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+code {
+	padding: .15em .3em;
+	font: {
+		size: 90%;
+		style: normal; /* Prevent inheritance from em */
+		weight: normal; /* Prevent inheritance from strong */
+	}
+	color: #d44950;
+	background-color: #f5f5f5;
+	border-radius: .15em;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/**********************************
+			Header
+**********************************/
+
+.top {
+	display: block;
+	margin-bottom: 3.11111em;
+	text-align: center;
+
+	#logo {
+		max-width: 200px;
+	}
+
+	.site_title {
+		font: {
+			weight: bolder;
+			size: 40px;
+			family: $base-font-stack;
+		}
+		text-decoration: none;
+		display: block;
+		margin: 0 auto;
+		padding: 15px 25px 0px 25px;
+	}
+
+	.site_sub_title {
+		text-transform: uppercase; 
+		letter-spacing: 5px; 
+		font: {
+			size: 13px;
+			style: normal; 
+			weight: 400; 
+			family: proxima-nova; 
+		}
+		line-height: 45px; 
+		color: $theme-color;
+	}
 }
 
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+
+
+/**********************************
+		Navigation
+**********************************/
+
+nav {
+	font: {
+		size: 13px;
+		family: $title-font-stack;
+	}
+	border: {
+		top: 1px solid #000;
+		bottom: 1px solid #000;
+	}
+	padding: 22px 0;
+	margin: 0;
+	letter-spacing: 2px;
+
+	a {
+		text-decoration: none;
+		padding: 0 15px;
+
+		&:hover {
+		    color: $theme-color;
+		}
+	}
+
+	
+}
+
+.active {
+    color: $theme-color;
+    font-weight: 700;
+}
+
+/**********************************
+		Titles & Dates
+**********************************/
+
+.pageTitle {
+	display: block;
+	margin: 0 auto 4.66667em auto;
+	width: 66.66667%;
+	text-align: center;
+}
+
+.blogTitle {
+	font: {
+		weight: bolder;
+		family: $title-font-stack;
+		size: 24px;
+	}
+	display: block;
+	margin: 0 auto;
+	padding: 15px 25px 5px 25px;
+	text-align: center;
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			color: $theme-color;
+		}
+	}
+}
+
+.archiveTitle {
+	font: {
+		weight: bolder;
+		family: $title-font-stack;
+		size: 20px;
+	}
+	display: block;
+	margin: 0 auto;
+	padding: 15px 0px 5px 0px;
+	max-width: 500px;
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			color: $theme-color;
+		}
+	}
+}
+
+#reduce {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.blogDate {
+	font: {
+		weight: bolder;
+		family: $title-font-stack;
+		size: 13px;
+	}
+	color: rgb(170, 170, 170);
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.archiveDate {
+	font: {
+		weight: bolder;
+		family: $title-font-stack;
+		size: 13px;
+	}
+	color: rgb(170, 170, 170);
+}
+
+/**********************************
+		Post & Page Content
+**********************************/
+
+hr {
+	border: 0;
+	border-bottom: 2px solid #d0d2d4;
+	width: 6rem;
+	padding-top: 1.55556rem;
+	margin: -2px auto 3.11111rem auto;
+}
+
+blockquote {
+	border: {
+		left: 1px solid #777;
+		right: 0px solid #777;
+	}
+	margin: 0 1em 1em 0.25em;
+	padding: 0 .75em 0 1em;
+	text-align: justify;
+}
+
+#portrait {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#me {
+	font: {
+		weight: bolder;
+		family: $title-font-stack;
+		size: 24px;
+	}
+	margin: 0 auto;
+	padding: 15px 25px 15px 25px;
+	text-align: center;
+}
+
+.page_content {
+	font: {
+		size: $content-font-size;
+		weight: 400;
+		kerning: normal;
+		feature-settings: "liga" 1, "onum" 1, "kern" 1;
+	}
+	color: $content-font-color;
+	display: block;
+	max-width: 700px;
+	margin: 0 auto 0 auto;
+	line-height: 1.5;
+	letter-spacing: .01rem;
+	text-rendering: optimizeLegibility;
+
+	a {
+		color: $content-font-color;
+
+		&:hover {
+			color: $theme-color;
+		}
+	}
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+
+    iframe {
+	    position: absolute;
+	    top:0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+}
+
+
+/**********************************
+			Footer
+**********************************/
+
+footer {
+	border-top: 1px solid rgba(61,70,77,0.1);
+
+	.colophon {
+		font: {
+			family: $base-font-stack;
+			kerning: normal;
+			feature-settings: "liga" 1, "onum" 1, "kern" 1;
+		}
+		margin: 0 auto;
+		padding: 0.77778em 0;
+		width: 100%;
+		max-width: 500px;
+		color: $content-font-color;
+		text-rendering: optimizeLegibility;
+		text-align: justify;
+
+		p {
+			text-align: justify;
+		}
+
+		a {
+			color: $content-font-color;
+		}
+	}
+}
+
+.buffer {
+	margin-top: 6.22222em;
+}
+
+small, .small, figcaption, .footnotes, .footer__copyright {
+    font-size: .8em;
+}
+
+
+/**********************************
+			Media
+**********************************/
+
+@media screen and (max-width: 860px) {
+    html, :root {
+        font-size: 101.25%
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .article_header, .page_content {
+        max-width: 900px;
+        width: 100%;
+    }
+
+    .colophon {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        width: auto;
+    }
+
+    .buffer {
+        margin-top: 5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1, .alpha {
+        font-size: 2em;
+    }
+    html, :root, .page_content {
+        font-size: 98%;
+    }
+    .site_title {
+        font-size: 201.25%;
+    }
+}
