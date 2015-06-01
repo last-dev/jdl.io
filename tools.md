@@ -39,7 +39,9 @@ I use Dropbox to share photos and files with friends and myself. It is a way to 
 
 <img alt="Github" id="tools-logo" src="{{site.baseurl}}/img/github.png">
 **[Github](https://mac.github.com)** <br>
-Hosting Git repositories remotely is crucial whether collaborating on projects with friends, anyone in the open-source community, or co-workers. GitHub makes this so easy I could cry.
+Hosting Git repositories remotely is crucial whether collaborating on projects with friends, anyone in the open-source community, or co-workers. GitHub makes this so easy I could cry. 
+
+Github for your operating system is an excellent and simple graphical user interface to Git that removes much of the confusion for beginners. I highly recommend it if you have no concept of how to use Git and you don't want to commit the time to learn it with the command line.
 
 I currently host this site using Github. [Read my post on hosting with Github]({{site.baseurl}}/hosted-on-github).
 
