@@ -3,6 +3,7 @@ layout: post
 title: "Controversial: The Patriot Act"
 date: 2015-05-31
 permalink: /the-patriot-act
+active: blog
 ---
 
 [The Patriot Act](http://en.wikipedia.org/wiki/Patriot_Act) is set to expire at 12:01 tomorrow morning unless the Senate votes to extend it. This highly debated topic seems to be the center of my universe at work, as it is debated by many of my coworkers.  

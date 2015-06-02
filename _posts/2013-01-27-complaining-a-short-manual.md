@@ -3,6 +3,7 @@ layout: post
 title: "Complaining: A Short Manual"
 date: 2013-01-27
 permalink: /complaining-a-short-manual
+active: blog
 ---
 
 D. Keith Robinson, Product Designer for Heroku, wrote a blog post around the subject of complaining. It made me do some self reflecting. I'd like to share the first two points of it with you:

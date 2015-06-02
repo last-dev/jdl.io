@@ -3,6 +3,7 @@ layout: post
 title: "Undercover UberX"
 date: 2015-05-23
 permalink: /undercover-uberx
+active: blog
 ---
 
 [Matthew Mullenweg](http://ma.tt) linked to a very interesting article about the ever controversial Uber service that is spreading rapidly from city to city. I'd love to share it with you all!

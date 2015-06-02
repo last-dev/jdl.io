@@ -3,6 +3,7 @@ layout: post
 title:  Move to Jekyll
 date:   2015-05-30
 permalink: /move-to-jekyll
+active: blog
 ---
 
 I finally completed my conversion of this site to the Jekyll platform. [Jekyll](http://jekyllrb.com/) is an open source static site generator. I've talked about making this move for awhile. I found a tutorial that put everything into layman's terms for me. 
@@ -21,7 +22,7 @@ With templates, now when I need to change those links in my footer, or add anoth
 
 <img class="img" style="max-width: 450px;" src="{{site.baseurl}}/img/layout.png">
 
-In this example above, you can see my default template uses the [Liquid templating system](https://github.com/Shopify/liquid/wiki) to have my header and footer nested in the layout. 
+In this example above, you can see my default template uses the [Liquid templating system](http://liquidmarkup.org) to have my header and footer nested in the layout. Liquid is a simple, extensible templating language that makes it easy to embed data in your templates.
 
 In Jekyll, my post files are Markdown files. Jekyll converts the Markdown into ready-to-publish HTML. Check out the [syntax documentation for Markdown](http://daringfireball.net/projects/markdown/). 
 

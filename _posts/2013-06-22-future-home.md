@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Future Home"
-date: 2015-03-22
+date: 2013-06-22
 permalink: /future-home
+active: blog
 ---
 
 <img class="img" alt="" src="{{site.baseurl}}/img/loft1.png">

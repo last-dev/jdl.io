@@ -3,6 +3,7 @@ layout: post
 title:  My First Car
 date:   2008-04-18
 permalink: /my-first-car 
+active: blog
 ---
 
 <img class="img" src="{{site.baseurl}}/img/firstcar1.png">

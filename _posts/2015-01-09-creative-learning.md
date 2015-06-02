@@ -3,13 +3,14 @@ layout: post
 title: "Creative Learning"
 date: 2015-01-09
 permalink: /creative-learning
+active: blog
 ---
-
-<img class="img" src="{{site.baseurl}}/img/applebethesda.png">
 
 If you follow me on <a href="http://twitter.com/whoislaster">Twitter</a>, you’d know I found a hidden passion of mine during my short stint with Verizon: teaching! I found it incredibly rewarding teaching folks how to use and get the most out of their devices.
 
 During my Apple training, I was given an opportunity to shadow some Creative appointments. A Creative is Apple’s version of a tutor or instructor. As a Creative, your main role at the Apple Store is that of instructor, whether guiding small groups to learn or helping individuals complete projects. You use your presentation skills to act as a facilitator, helping users get set up, get trained, and get going.
+
+<img class="img" src="{{site.baseurl}}/img/applebethesda.png">
 
 I’m dubbed a “FRS” or Family Room Specialist here at the Apple store in Bethesda. I’m essentially a troubleshooter for the mobile devices. After doing the shadowing with the Creative, I got that bug again… That teaching bug. I love the one-on-one and group learning situations. Helping folks understand that technology isn’t a <b>hurdle</b>, but rather a serious <b>tool</b> that can make their lives more convenient.
 
