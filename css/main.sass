@@ -2,10 +2,10 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-$base-font-stack: "freight-text-pro", Georgia, serif
-$title-font-stack: "leitura-news", Georgia, serif
-$content-font-size: 22px
-$content-font-color: #3d464d
+$base-font-stack: 'OpenSans', arial, sans-serif
+$title-font-stack: 'Roboto', sans-serif
+$content-font-size: 18px
+$content-font-color: #444
 $theme-color: #00aced
 
 
@@ -15,36 +15,61 @@ $theme-color: #00aced
 //
 // 
 
+@font-face
+  font-family: 'Cabin'
+  src: url('{{site.baseurl}}/fonts/Cabin.ttf') format('truetype')
+
+@font-face
+  font-family: 'Roboto'
+  src: url('{{site.baseurl}}/fonts/Roboto.ttf') format('truetype')
+
+@font-face
+  font-family: 'OpenSans'
+  src: url('{{site.baseurl}}/fonts/OpenSans.ttf') format('truetype')
+
 a
   color: #000000
   text-decoration: underline
 
-header, main, footer, p, blockquote, ul, ol, h1, h2
+header, main, footer, blockquote, ul, ol, h1, h2
   margin-bottom: 30px
 
-h1, h2, h3, h4
+p 
+  margin-bottom: 20px
+
+h1, h2, h3
+  display: block
   font-weight: 700
-  text-rendering: optimizeLegibility
 
 h1
   font:
     size: 3em
+    family: $title-font-stack
+  text-align: center
   line-height: 1.25
-  color: $content-font-color
+  margin: 0 auto 1.5em auto
 
 h2
-  padding-top: 1.55556em
+  font:
+    weight: bolder
+    family: $title-font-stack
+    size: 2em
+  display: block
+  margin: 0 auto
+  padding: 15px 25px 5px 25px
+  text-align: center
+
+  a
+    text-decoration: none
+
+    &:hover
+      color: $theme-color
 
 
 h3
-  font-size: 1.5em
-  margin-bottom: .5em
+  font-size: 22px
+  margin-bottom: 10px 0
   text-align: justify
-
-h4
-  font:
-    family: "franklin-gothic-urw", Geneva, Verdana, san-serif
-  margin-bottom: 0.77778em
 
 
 //
@@ -59,7 +84,9 @@ h4
 
 body
   font-family: $base-font-stack
+  color: $content-font-color
   padding: 1.55556em
+  line-height: 1.54
   text-rendering: optimizeLegibility
   -webkit-font-smoothing: antialiased
   background-color: #fff
@@ -105,7 +132,7 @@ code
     font:
       weight: bolder
       size: 40px
-      family: $base-font-stack
+      family: $title-font-stack
     text-decoration: none
     display: block
     margin: 0 auto
@@ -116,7 +143,6 @@ code
       size: 13px
       style: normal
       weight: 400
-      family: proxima-nova
     text-transform: uppercase
     letter-spacing: 5px
     line-height: 45px
@@ -158,33 +184,11 @@ nav
 //
 //
 
-.pageTitle
-  display: block
-  margin: 0 auto 4.66667em auto
-  width: 66.66667%
-  text-align: center
-
-.blogTitle
-  font:
-    weight: bolder
-    family: $title-font-stack
-    size: 2em
-  display: block
-  margin: 0 auto
-  padding: 15px 25px 5px 25px
-  text-align: center
-
-  a
-    text-decoration: none
-
-    &:hover
-      color: $theme-color
-
 .archiveTitle
   font:
     weight: bolder
     family: $title-font-stack
-    size: 20px
+    size: 22px
   display: block
   margin: 0 auto
   padding: 15px 0px 5px 0px
@@ -248,15 +252,10 @@ blockquote
 .page-content
   font:
     size: $content-font-size
-  font-kerning: normal
-  font-feature-settings: "liga" 1, "onum" 1, "kern" 1
-  color: $content-font-color
   display: block
   max-width: 700px
   margin: 0 auto 0 auto
-  line-height: 1.5
   letter-spacing: .01em
-  text-rendering: optimizeLegibility
 
   a
     color: $content-font-color
@@ -291,27 +290,19 @@ footer
   .colophon
     font:
       family: $base-font-stack
-    font-kerning: normal
-    font-feature-settings: "liga" 1, "onum" 1, "kern" 1
+      size: .8em
     margin: 0 auto
     padding: 0.77778em 0
     width: 100%
     max-width: 500px
     color: $content-font-color
-    text-rendering: optimizeLegibility
     text-align: justify
-
-    p
-      text-align: justify
 
     a
       color: $content-font-color
 
 .buffer
   margin-top: 6.22222em
-
-small, .small, figcaption, .footnotes, .footer__copyright
-  font-size: .8em
 
 
 //
@@ -320,35 +311,15 @@ small, .small, figcaption, .footnotes, .footer__copyright
 //
 //
 
-@media screen and (max-width: 860px)
-  html, :root
-    font-size: 101.25%
-
 @media screen and (max-width: 600px)
   .pageTitle, .page-content
     max-width: 900px
     width: 100%
 
-  .colophon
-    display: block
-    margin-left: 0
-    margin-right: 0
-    padding-left: 0
-    width: auto
-
   .buffer
     margin-top: 5em
 
 @media screen and (max-width: 500px)
-  h1, .alpha
-    font-size: 2em
-
-  html, :root, .page_content
-    font-size: 98%
-
-  .site-title
-    font-size: 201.25%
-
-  .page-content
+  .page-content p
     text-align: left
-    font-size: 17px
+    font-size: 16px
