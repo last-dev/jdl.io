@@ -3,8 +3,8 @@ layout: default
 ---
 
 
-<div class="blogTitle" id="reduce"><a href="{{post.url}}">{{page.title}}</a></div>
-<div class="blogDate">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</div>
+<h2 id="reduce"><a href="{{post.url}}">{{page.title}}</a></h2>
+<div class="blogDate">{{ page.date | date: "%b %-d, %Y" }}</div>
 
 
 <article class="post-content">
