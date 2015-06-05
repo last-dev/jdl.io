@@ -298,6 +298,9 @@ footer
     color: $content-font-color
     text-align: justify
 
+    p 
+      margin-bottom: 10px
+
     a
       color: $content-font-color
 
@@ -311,15 +314,17 @@ footer
 //
 //
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 750px)
   .pageTitle, .page-content
     max-width: 900px
     width: 100%
 
   .buffer
     margin-top: 5em
+    
+  h2 a
+    font-size: 1.5em
 
-@media screen and (max-width: 500px)
   .page-content p
     text-align: left
     font-size: 16px
