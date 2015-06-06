@@ -8,12 +8,10 @@ active: tools
 This little guide will hopefully give you some good tools to get started or improve your existing Mac workflow. I care a lot about functionality, aesthetics, and optimization.
 <hr>
 
-### *Operating System*
 <img alt="Divvy" id="tools-logo" src="{{site.baseurl}}/img/divvy.png">
 **[Divvy](http://mizage.com/divvy/)** <br>
 A fast keyboard-triggered tool to resize application windows on a predefined grid with shortcuts. An absolute must for HTML/CSS design with browser testing and programming with documentation & research.
 
-### *Security*
 <img alt="1Password" id="tools-logo" src="{{site.baseurl}}/img/1password.png">
 **[1Password](https://agilebits.com/onepassword)** <br>
 1Password is an amazing app which stores complex passwords for all your accounts under one main master password, allowing you to create virtually unbreakable passwords for every single one of your accounts.
@@ -22,14 +20,12 @@ And if a website's secure database is breached (a common occurence of late), you
 
 Since you don't want to open 1Password every time you need to use a password to sign in to a service, it comes with extensions for all major browsers that not only automatically fill the sign in form of any website for you (after prompting you for your master password), but also allows you to generate and save new credentials while remaining in your favorite browser.
 
-### *Editors*
 <img alt="Sublime Text Editor" id="tools-logo" src="{{site.baseurl}}/img/sublime.png">
 **[Sublime Text 2/3](http://www.sublimetext.com)** <br>
 A good text editor is arguably the most important app in a web developer’s toolkit; you’re only as good as your code, and you code in a text editor. I originally used [TextMate](https://macromates.com), but TextMate’s development has reached a dead end. 
 
 Sublime Text 2 emerged as a clear choice. I love the editor’s speed, even with huge directories open, the TextMate-like <code>Command</code> + <code>p</code> fuzzy file search, and the multiple selection mode. Using Sublime's popular package manager, [Package Control](https://packagecontrol.io), I can add cool features to the editor that didn't ship right out the box.
 
-### *Web Development*
 <img alt="Dropbox" id="tools-logo" src="{{site.baseurl}}/img/dropbox.png">
 **[Dropbox](https://www.dropbox.com)** <br>
 If you don't use Dropbox, start today. It will allow you to seamlessly synchronize files across any computer or device (Mac, PC, iPad, iPhone, etc). It creates a sort of hot folder where you can drop anything and see it appear on another device in minutes if not seconds depending on the size of the files.
