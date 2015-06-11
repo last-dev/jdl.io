@@ -8,6 +8,8 @@ These are the things I’ve heard and read that help me work, live, and think. T
 
 <hr>
 
+“We’re all a little weird. And life is a little weird. And when we find someone whose weirdness is compatible with ours, we join up with them and fall into mutually satisfying weirdness.”<br>—Robert Fulghum
+
 “Any sufficiently advanced technology is indistinguishable from magic.”<br>—Authur C. Clarke
 
 “Knowledge is power.”<br>—Francis Bacon
