@@ -7,6 +7,7 @@ $title-font-stack: 'Roboto', sans-serif
 $content-font-size: 17px
 $content-font-color: #4e5665
 $theme-color: #6d84b4
+$masthead-color: #293e6b
 
 
 //
@@ -27,7 +28,7 @@ a
   color: #000000
   text-decoration: underline
 
-header, main, footer, blockquote, ul, ol, h1, h2
+header, main, blockquote, ul, ol, h1, h2
   margin-bottom: 30px
 
 p 
@@ -118,7 +119,7 @@ code
   display: block
   margin-bottom: 3.11111em
   text-align: center
-  background: #293e6b
+  background: $masthead-color
 
   #logo
     max-width: 200px
@@ -288,27 +289,28 @@ blockquote
 //
 
 footer
-  border-top: 1px solid rgba(61,70,77,0.1)
+  border-top: 2px solid $theme-color
+  padding: 0 1.55556em 
+  background: $masthead-color
+  height: 200px
+  margin-top: 13em
 
   .colophon
     font:
       family: $base-font-stack
       size: .8em
     margin: 0 auto
-    padding: 0.77778em 0
+    padding: 2em 0
     width: 100%
     max-width: 500px
-    color: $content-font-color
+    color: $theme-color
     text-align: justify
 
     p 
       margin-bottom: 10px
 
     a
-      color: $content-font-color
-
-.buffer
-  margin-top: 6.22222em
+      color: $theme-color
 
 
 //
@@ -322,7 +324,7 @@ footer
     max-width: 900px
     width: 100%
 
-  .buffer
+  footer
     margin-top: 5em
 
   h2 a
