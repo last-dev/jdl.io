@@ -78,7 +78,6 @@ h3
 body
   font-family: $base-font-stack
   color: $content-font-color
-  padding: 1.55556em
   margin: 0
   line-height: 1.54
   text-rendering: optimizeLegibility
@@ -106,6 +105,7 @@ code
 .wrap
   max-width: 1000px
   margin: 0 auto
+  padding: 0 1.55556em
 
 
 //
@@ -118,6 +118,7 @@ code
   display: block
   margin-bottom: 3.11111em
   text-align: center
+  background: #293e6b
 
   #logo
     max-width: 200px
@@ -127,6 +128,7 @@ code
       weight: bolder
       size: 40px
       family: 'Lobster'
+    color: #fff
     text-decoration: none
     display: block
     margin: 0 auto
@@ -154,8 +156,8 @@ nav
     size: 13px
     family: $title-font-stack
   border:
-    top: 1px solid #000
-    bottom: 1px solid #000
+    top: 1px solid $theme-color
+    bottom: 2px solid $theme-color
   padding: 22px 0
   margin: 0
   letter-spacing: 2px
@@ -163,13 +165,16 @@ nav
   a
     text-decoration: none
     padding: 0 15px
+    color: $theme-color
 
     &:hover
       color: $theme-color
+      text-decoration: underline
 
 .active
   color: $theme-color
-  font-weight: 700
+  font-weight: bold
+  text-decoration: underline
 
 
 //
@@ -191,12 +196,15 @@ nav
   a
     text-decoration: none
 
-    &:hover
-      color: $theme-color
-
 #reduce
   margin-bottom: 0
   padding-bottom: 0
+
+  a
+    color: $content-font-color
+
+    &:hover
+      color: $theme-color
 
 .blogDate
   font:
