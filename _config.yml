@@ -1,6 +1,9 @@
-# Site settings
-title: Jonathan Laster
-description: > # Software & Automotive technologist. 
+#==============================
+# General site config
+#==============================
+
+name: "Jonathan D. Laster, Thinker"
+description: Thinker
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://laster.co" # the base hostname & protocol for your site
 permalink: pretty
