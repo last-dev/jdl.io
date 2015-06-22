@@ -38,3 +38,4 @@ The *Basic Theme* gives you the general appearance of Google’s search. The key
 
 * Result URL Color: <code>#009636</code>
 
+Now your search results should feel Google-esque. 
