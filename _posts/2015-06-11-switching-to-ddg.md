@@ -28,7 +28,7 @@ So far in my experiement, I've had mixed results. For easy queries, DDG is great
 
 For example, "movie about kidnapped daughter" (I'm looking for the 2008 movie Taken, but have "forgotten" the name). Google: 3rd result. DDG: 7th result. Bing: 8th result. Why did Google link “Taken" 3rd and DDG/Bing link it 7th and 8th, respectively? They likely have all indexed the Wikipedia and IMDB pages for the movie Taken. However, Google likely ranks those links closer to the top because historically that's what users want when they searched for that phase.
 
-Particularly when debugging and searching development related error message I had to use the "!g" bang almost constantly. I suspect this could be related to Google knowing that you tend to search for code a lot, thus bumping related results to the top. DDG of course avoids storing context for users.
+Particularly, when debugging and searching development related error message I had to use the "!g" bang almost constantly. I suspect this could be related to Google knowing that I tend to search for code a lot, thus bumping related results to the top. DDG of course avoids storing context for users.
 
 BUT! !Bangs make up for the lacking. Adding in the !bang feature for searching most of my frequent websites gives me quick access to where _exactly_ I want to go. Classics like !w for Wikipedia, !gh for GitHub, and !a for amazon. Of course, if I need Google, say for word etymologies, it's just a !g away.
 
