@@ -14,7 +14,7 @@ I’ve been thinking of Google, and the sheer monopoly they have over the search
 
 What is Duck Duck Go you ask? [Duck Duck Go](duckduckgo.com/about), DDG for short, is an Internet search engine that emphasizes protecting searchers privacy and avoiding the [filter bubble](https://en.wikipedia.org/wiki/Filter_bubble) of personalized search results. Why is that cool you ask? Well, [Ben Boyter](http://www.boyter.org/about/) answered the question beautifully:
 
-* Privacy enabled by default. This certainly helped get traction when the NSA security revelations came around. DDG is not the only privacy conscious search engine, but certainly one that pushes it as a feature more then others. See [https://duckduckgo.com/privacy](duckduckgo.com/privacy).
+* Privacy enabled by default. This certainly helped get traction when the NSA security revelations came around. DDG is not the only privacy conscious search engine, but certainly one that pushes it as a feature more then others. See [duckduckgo.com/privacy](https://duckduckgo.com/privacy).
 
 * [!Bang syntax](https://duckduckgo.com/bang). This makes the cost of switching to DDG much lower then any other search engine because you are not locked in when its results are lacking.
 
