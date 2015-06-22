@@ -8,7 +8,7 @@ active: blog
 
 Over the past couple years, we've seen alot of stories dealing with privacy. Therefore, I’ve been exposed to a lot of arguments about the cabilities and intentions behind some companies. 
 
-I’ve been thinking of Google, and the sheer monopoly they have over the search and advertising industry online. I want to make it clear that I am inspired by Google’s innovation with their moon-shot ideas across the plain. But, let’s try the other guy out to see how my life is effected. Ha! I've called it an experiment. I've had Duck Duck Go has my default search engine on all my devices for about 2 weeks now.
+I’ve been thinking of Google, and the sheer monopoly they have over the search and advertising industry online. I want to make it clear that I am inspired by Google’s innovation with their moon-shot ideas across the plain. I also respect Google as a research and development company, not merely a search engine or an ad seller. But, let’s try the other guy out to see how my life is effected. Ha! I've called it an experiment. I've had Duck Duck Go has my default search engine on all my devices for about 2 weeks now.
 
 <img src="{{site.baseurl}}/img/ddg.svg" style="max-width: 350px;">
 
