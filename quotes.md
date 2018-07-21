@@ -4,7 +4,7 @@ title: Quotes
 active: quotes
 ---
 
-These are the things I’ve heard and read that help me work, live, and think. The things that shape my personality and remind me of the world's triumphs and challenges. And, of course, the things that make me smile. And they’re all from the pens and lips of those much smarter than I could hope to become.
+These are the things I’ve heard and read that help me work, live, and think. The things that shape my personality and remind me of the world's triumphs and challenges. Of course, also the things that make me smile. They’re all from the pens and lips of those much smarter than I could hope to become.
 
 <hr>
 
