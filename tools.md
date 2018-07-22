@@ -5,7 +5,7 @@ permalink: /tools/
 active: tools
 ---
 
-This little guide will hopefully give you some good tools to get started or improve your existing workflow. I care a lot about functionality, aesthetics, and optimization. Check it out!
+This little guide will hopefully give you some good tools that can be used to improve your existing workflow. I care a lot about functionality, aesthetics, and optimization. Check it out!
 <hr>
 
 <img alt="Divvy" id="tools-logo" src="{{site.baseurl}}/img/divvy.png">
