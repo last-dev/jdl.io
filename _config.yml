@@ -5,7 +5,7 @@
 name: "Jonathan D. Laster, Thinker"
 description: Thinker
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://laster.co" # the base hostname & protocol for your site
+url: "https://jdl.io" # the base hostname & protocol for your site
 permalink: pretty
 exclude: ['README.md']
 twitter_username: whoislaster
