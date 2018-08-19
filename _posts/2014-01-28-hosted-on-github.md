@@ -14,12 +14,12 @@ Fixing my hosting and deploy process has been on my todo list for months, but so
 * It's free (unless you want private repositories).
 
 ### The Limitation
-Github pages only serve vanilla HTML/CSS/JS, meaning if your project requires server-side scripting or a traditional database, you're out of luck. T
+Github pages only serve vanilla HTML/CSS/JS, meaning if your project requires server-side scripting or a traditional database, you're out of luck.
 
 ### Deploying In Style
-If your site is raw HTML/CSS/JS, deploying is as simple as merging any new changes from a working branch into the gh-pages branch and pushing. You're done. Changes to your site will be reflected almost immediately. 
+If your site is raw HTML/CSS/JS, deploying is as simple as merging any new changes from a working branch into the gh-pages branch and pushing. You're done. Changes to your site will be reflected almost immediately.
 
 ### I Love My New Workflow
 Using Github as a hosting provider is amazing. If you have projects built with vanilla HTML/CSS/JS (or that compile to static code), I strongly suggest giving [Github Pages](https://pages.github.com) a chance. Combining [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) with hosting seems like a no brainer in retrospect. Since version control already means pushing files to a remote server, why not use that same system to deploy the whole site to a remote server?
 
-Faster, simpler, semi-automated deploys means I get to focus on the fun stuff like designing, writing, and coding.
+Faster, simpler, semi-automated deploys means I get to focus on the fun stuff like writing, and coding.
