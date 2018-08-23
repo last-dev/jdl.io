@@ -13,11 +13,11 @@ This little guide will hopefully give you some good tools that can be used to im
 A fast keyboard-triggered tool to resize application windows on a predefined grid with shortcuts. An absolute must for HTML/CSS design with browser testing and programming with documentation & research.
 
 <br>
-<img alt="Sublime Text Editor" id="tools-logo" src="{{site.baseurl}}/img/sublime.png">
-**[Sublime Text](http://www.sublimetext.com){:target="_blank"}** <br>
-A good text editor is arguably the most important app in a developer’s toolkit; you’re only as good as your code, and you code in a text editor. I originally used [TextMate](https://macromates.com), but TextMate’s development has reached a dead end.
+<img alt="Atom Text Editor" id="tools-logo" src="{{site.baseurl}}/img/atom-icon.png">
+**[Atom](https://atom.io/){:target="_blank"}** <br>
+A good text editor is arguably the most important app in a developer’s toolkit. You’re only as good as your code, and you code in a text editor. Atom is my current editor of choice! An open-source text editor made by GitHub themselves. I love the awesome [documentation](https://atom.io/docs), modern design out the box, and Git integration. Also, browsing Atom's extensive trove of [packages](https://atom.io/packages), I can add cool features to the editor that didn't ship right out the box.
 
-Sublime Text emerged as a clear choice. I love the editor’s speed, even with huge directories open, the TextMate-like <code>Command</code> + <code>p</code> fuzzy file search, and the multiple selection mode. Using Sublime's popular package manager, [Package Control](https://packagecontrol.io), I can add cool features to the editor that didn't ship right out the box.
+I originally used [TextMate](https://macromates.com), but TextMate’s development reached a dead end. Then I used [Sublime Text](https://www.sublimetext.com/), but it's advancement has severely slowed. Updates come months apart and community of contributors dwarfs Atom's. Sublime is still a great editor, but I wanted something more actively supported.
 
 <br>
 <img alt="Github" id="tools-logo" src="{{site.baseurl}}/img/github.png">
@@ -35,7 +35,7 @@ If you don't use Dropbox, start today. It will allow you to seamlessly synchroni
 
 Better yet, Dropbox acts as a cloud backup solution since all the files you sync are saved, even if you delete them from all of your devices accidentally.
 
-Early on, I primarily used Dropbox to share files with friends using their [Shared Folders](https://www.dropbox.com/features/share/folders) feature. Now, I mainly use Dropbox to host my local code repository for this site. So, whether I'm on my Macbook Pro out-n-about, or at home on my desktop PC, my local code repository is always up to date on any machine I have Dropbox downloaded on. Just drop my repostory file into Sublime Text and I'm ready to code.  
+Early on, I primarily used Dropbox to share files with friends using their [Shared Folders](https://www.dropbox.com/features/share/folders) feature. Now, I mainly use Dropbox to host my local code repository for this site. So, whether I'm on my Macbook Pro out-n-about, or at home on my desktop PC, my local code repository is always up to date on any machine I have Dropbox downloaded on. Just drop my repository file into Sublime Text and I'm ready to code.  
 
 <br>
 <img alt="1Password" id="tools-logo" src="{{site.baseurl}}/img/1password.png">
