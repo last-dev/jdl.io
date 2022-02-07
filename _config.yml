@@ -2,14 +2,14 @@
 # General site config
 #==============================
 
-name: "Jonathan D. Laster, Thinker"
+name: "Jonathan Laster, Thinker"
 description: Thinker
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jdl.io" # the base hostname & protocol for your site
 permalink: pretty
 exclude: ['README.md']
 twitter_username: whoislaster
-github_username:  goodkaws
+github_username:  lasterdev
 
 # Build settings
 markdown: kramdown
