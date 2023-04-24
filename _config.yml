@@ -9,7 +9,7 @@ url: "https://jdl.io" # the base hostname & protocol for your site
 permalink: pretty
 exclude: ['README.md']
 twitter_username: whoislaster
-github_username:  lasterdev
+github_username: last-dev
 
 # Build settings
 markdown: kramdown
